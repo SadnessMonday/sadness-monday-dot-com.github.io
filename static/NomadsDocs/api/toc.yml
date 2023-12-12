@@ -1,0 +1,16 @@
+### YamlMime:TableOfContent
+items:
+- uid: SadnessMonday.NomadsRuntime
+  name: SadnessMonday.NomadsRuntime
+  items:
+  - uid: SadnessMonday.NomadsRuntime.MultipleNomadsException
+    name: MultipleNomadsException
+  - uid: SadnessMonday.NomadsRuntime.Nomad
+    name: Nomad
+  - uid: SadnessMonday.NomadsRuntime.NomadRef`1
+    name: NomadRef<T>
+  - uid: SadnessMonday.NomadsRuntime.NomadicScene
+    name: NomadicScene
+  - uid: SadnessMonday.NomadsRuntime.Nomads
+    name: Nomads
+memberLayout: SamePage

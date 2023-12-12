@@ -1,0 +1,493 @@
+### YamlMime:ManagedReference
+items:
+- uid: SadnessMonday.NomadsRuntime.NomadRef`1
+  commentId: T:SadnessMonday.NomadsRuntime.NomadRef`1
+  id: NomadRef`1
+  parent: SadnessMonday.NomadsRuntime
+  children:
+  - SadnessMonday.NomadsRuntime.NomadRef`1.Dispose
+  - SadnessMonday.NomadsRuntime.NomadRef`1.Value
+  - SadnessMonday.NomadsRuntime.NomadRef`1.op_Implicit(SadnessMonday.NomadsRuntime.NomadRef{`0})~`0
+  langs:
+  - csharp
+  - vb
+  name: NomadRef<T>
+  nameWithType: NomadRef<T>
+  fullName: SadnessMonday.NomadsRuntime.NomadRef<T>
+  type: Struct
+  source:
+    remote:
+      path: Assets/Nomads/Runtime/NomadsRuntime/NomadRef.cs
+      branch: main
+      repo: git@github.com:SadnessMonday/nomadic-singletons.git
+    id: NomadRef
+    path: ../Assets/Nomads/Runtime/NomadsRuntime/NomadRef.cs
+    startLine: 10
+  assemblies:
+  - Nomads Runtime
+  namespace: SadnessMonday.NomadsRuntime
+  summary: >-
+    Instead of a direct reference to a prefab, you can use a NomadRef. This lets you drag and drop a prefab into a
+
+    slot in the inspector like you are used to. However at runtime your reference will be to a runtime instance
+
+    rather than to the prefab itself.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct NomadRef<T> : IDisposable
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: >-
+      <Serializable>
+
+      Public Structure NomadRef(Of T) Implements IDisposable
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  nameWithType.vb: NomadRef(Of T)
+  fullName.vb: SadnessMonday.NomadsRuntime.NomadRef(Of T)
+  name.vb: NomadRef(Of T)
+- uid: SadnessMonday.NomadsRuntime.NomadRef`1.op_Implicit(SadnessMonday.NomadsRuntime.NomadRef{`0})~`0
+  commentId: M:SadnessMonday.NomadsRuntime.NomadRef`1.op_Implicit(SadnessMonday.NomadsRuntime.NomadRef{`0})~`0
+  id: op_Implicit(SadnessMonday.NomadsRuntime.NomadRef{`0})~`0
+  parent: SadnessMonday.NomadsRuntime.NomadRef`1
+  langs:
+  - csharp
+  - vb
+  name: implicit operator T(NomadRef<T>)
+  nameWithType: NomadRef<T>.implicit operator T(NomadRef<T>)
+  fullName: SadnessMonday.NomadsRuntime.NomadRef<T>.implicit operator T(SadnessMonday.NomadsRuntime.NomadRef<T>)
+  type: Operator
+  source:
+    remote:
+      path: Assets/Nomads/Runtime/NomadsRuntime/NomadRef.cs
+      branch: main
+      repo: git@github.com:SadnessMonday/nomadic-singletons.git
+    id: op_Implicit
+    path: ../Assets/Nomads/Runtime/NomadsRuntime/NomadRef.cs
+    startLine: 12
+  assemblies:
+  - Nomads Runtime
+  namespace: SadnessMonday.NomadsRuntime
+  syntax:
+    content: public static implicit operator T(NomadRef<T> reference)
+    parameters:
+    - id: reference
+      type: SadnessMonday.NomadsRuntime.NomadRef`1
+    return:
+      type: '{T}'
+    content.vb: Public Shared Widening Operator CType(reference As NomadRef(Of T)) As T
+  overload: SadnessMonday.NomadsRuntime.NomadRef`1.op_Implicit*
+  nameWithType.vb: NomadRef(Of T).CType(NomadRef(Of T))
+  fullName.vb: SadnessMonday.NomadsRuntime.NomadRef(Of T).CType(SadnessMonday.NomadsRuntime.NomadRef(Of T))
+  name.vb: CType(NomadRef(Of T))
+- uid: SadnessMonday.NomadsRuntime.NomadRef`1.Value
+  commentId: P:SadnessMonday.NomadsRuntime.NomadRef`1.Value
+  id: Value
+  parent: SadnessMonday.NomadsRuntime.NomadRef`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: NomadRef<T>.Value
+  fullName: SadnessMonday.NomadsRuntime.NomadRef<T>.Value
+  type: Property
+  source:
+    remote:
+      path: Assets/Nomads/Runtime/NomadsRuntime/NomadRef.cs
+      branch: main
+      repo: git@github.com:SadnessMonday/nomadic-singletons.git
+    id: Value
+    path: ../Assets/Nomads/Runtime/NomadsRuntime/NomadRef.cs
+    startLine: 16
+  assemblies:
+  - Nomads Runtime
+  namespace: SadnessMonday.NomadsRuntime
+  syntax:
+    content: public T Value { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public ReadOnly Property Value As T
+  overload: SadnessMonday.NomadsRuntime.NomadRef`1.Value*
+  nameWithType.vb: NomadRef(Of T).Value
+  fullName.vb: SadnessMonday.NomadsRuntime.NomadRef(Of T).Value
+- uid: SadnessMonday.NomadsRuntime.NomadRef`1.Dispose
+  commentId: M:SadnessMonday.NomadsRuntime.NomadRef`1.Dispose
+  id: Dispose
+  parent: SadnessMonday.NomadsRuntime.NomadRef`1
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: NomadRef<T>.Dispose()
+  fullName: SadnessMonday.NomadsRuntime.NomadRef<T>.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Assets/Nomads/Runtime/NomadsRuntime/NomadRef.cs
+      branch: main
+      repo: git@github.com:SadnessMonday/nomadic-singletons.git
+    id: Dispose
+    path: ../Assets/Nomads/Runtime/NomadsRuntime/NomadRef.cs
+    startLine: 17
+  assemblies:
+  - Nomads Runtime
+  namespace: SadnessMonday.NomadsRuntime
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: SadnessMonday.NomadsRuntime.NomadRef`1.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  nameWithType.vb: NomadRef(Of T).Dispose()
+  fullName.vb: SadnessMonday.NomadsRuntime.NomadRef(Of T).Dispose()
+references:
+- uid: SadnessMonday.NomadsRuntime
+  commentId: N:SadnessMonday.NomadsRuntime
+  href: SadnessMonday.html
+  name: SadnessMonday.NomadsRuntime
+  nameWithType: SadnessMonday.NomadsRuntime
+  fullName: SadnessMonday.NomadsRuntime
+  spec.csharp:
+  - uid: SadnessMonday
+    name: SadnessMonday
+    href: SadnessMonday.html
+  - name: .
+  - uid: SadnessMonday.NomadsRuntime
+    name: NomadsRuntime
+    href: SadnessMonday.NomadsRuntime.html
+  spec.vb:
+  - uid: SadnessMonday
+    name: SadnessMonday
+    href: SadnessMonday.html
+  - name: .
+  - uid: SadnessMonday.NomadsRuntime
+    name: NomadsRuntime
+    href: SadnessMonday.NomadsRuntime.html
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SadnessMonday.NomadsRuntime.NomadRef`1.op_Implicit*
+  commentId: Overload:SadnessMonday.NomadsRuntime.NomadRef`1.op_Implicit
+  name: implicit operator
+  nameWithType: NomadRef<T>.implicit operator
+  fullName: SadnessMonday.NomadsRuntime.NomadRef<T>.implicit operator
+  nameWithType.vb: NomadRef(Of T).CType
+  fullName.vb: SadnessMonday.NomadsRuntime.NomadRef(Of T).CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: SadnessMonday.NomadsRuntime.NomadRef`1
+  commentId: T:SadnessMonday.NomadsRuntime.NomadRef`1
+  parent: SadnessMonday.NomadsRuntime
+  href: SadnessMonday.NomadsRuntime.NomadRef-1.html
+  name: NomadRef<T>
+  nameWithType: NomadRef<T>
+  fullName: SadnessMonday.NomadsRuntime.NomadRef<T>
+  nameWithType.vb: NomadRef(Of T)
+  fullName.vb: SadnessMonday.NomadsRuntime.NomadRef(Of T)
+  name.vb: NomadRef(Of T)
+  spec.csharp:
+  - uid: SadnessMonday.NomadsRuntime.NomadRef`1
+    name: NomadRef
+    href: SadnessMonday.NomadsRuntime.NomadRef-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: SadnessMonday.NomadsRuntime.NomadRef`1
+    name: NomadRef
+    href: SadnessMonday.NomadsRuntime.NomadRef-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SadnessMonday.NomadsRuntime.NomadRef`1.Value*
+  commentId: Overload:SadnessMonday.NomadsRuntime.NomadRef`1.Value
+  href: SadnessMonday.NomadsRuntime.NomadRef-1.html#SadnessMonday_NomadsRuntime_NomadRef_1_Value
+  name: Value
+  nameWithType: NomadRef<T>.Value
+  fullName: SadnessMonday.NomadsRuntime.NomadRef<T>.Value
+  nameWithType.vb: NomadRef(Of T).Value
+  fullName.vb: SadnessMonday.NomadsRuntime.NomadRef(Of T).Value
+- uid: SadnessMonday.NomadsRuntime.NomadRef`1.Dispose*
+  commentId: Overload:SadnessMonday.NomadsRuntime.NomadRef`1.Dispose
+  href: SadnessMonday.NomadsRuntime.NomadRef-1.html#SadnessMonday_NomadsRuntime_NomadRef_1_Dispose
+  name: Dispose
+  nameWithType: NomadRef<T>.Dispose
+  fullName: SadnessMonday.NomadsRuntime.NomadRef<T>.Dispose
+  nameWithType.vb: NomadRef(Of T).Dispose
+  fullName.vb: SadnessMonday.NomadsRuntime.NomadRef(Of T).Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

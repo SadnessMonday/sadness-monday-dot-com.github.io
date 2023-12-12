@@ -1,0 +1,39 @@
+{
+  "metadata": [{
+    "src": [{
+      "files": ["Nomads Runtime.csproj"],
+      "src": "../"
+    }],
+    "dest": "api"
+  }],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/*.yml"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      },
+      { "files": "**/*.{md,yml}", "src": ".", "dest": "." }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Nomads Scripting Reference",
+      "_appTitle": "Nomads Scripting Reference",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}
