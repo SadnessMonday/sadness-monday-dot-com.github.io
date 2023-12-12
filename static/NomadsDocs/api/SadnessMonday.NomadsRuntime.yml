@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: SadnessMonday.NomadsRuntime
+  commentId: N:SadnessMonday.NomadsRuntime
+  id: SadnessMonday.NomadsRuntime
+  children:
+  - SadnessMonday.NomadsRuntime.MultipleNomadsException
+  - SadnessMonday.NomadsRuntime.Nomad
+  - SadnessMonday.NomadsRuntime.NomadRef`1
+  - SadnessMonday.NomadsRuntime.NomadicScene
+  - SadnessMonday.NomadsRuntime.Nomads
+  langs:
+  - csharp
+  - vb
+  name: SadnessMonday.NomadsRuntime
+  nameWithType: SadnessMonday.NomadsRuntime
+  fullName: SadnessMonday.NomadsRuntime
+  type: Namespace
+  assemblies:
+  - Nomads Runtime
+references:
+- uid: SadnessMonday.NomadsRuntime.NomadRef`1
+  commentId: T:SadnessMonday.NomadsRuntime.NomadRef`1
+  parent: SadnessMonday.NomadsRuntime
+  href: SadnessMonday.NomadsRuntime.NomadRef-1.html
+  name: NomadRef<T>
+  nameWithType: NomadRef<T>
+  fullName: SadnessMonday.NomadsRuntime.NomadRef<T>
+  nameWithType.vb: NomadRef(Of T)
+  fullName.vb: SadnessMonday.NomadsRuntime.NomadRef(Of T)
+  name.vb: NomadRef(Of T)
+  spec.csharp:
+  - uid: SadnessMonday.NomadsRuntime.NomadRef`1
+    name: NomadRef
+    href: SadnessMonday.NomadsRuntime.NomadRef-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: SadnessMonday.NomadsRuntime.NomadRef`1
+    name: NomadRef
+    href: SadnessMonday.NomadsRuntime.NomadRef-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SadnessMonday.NomadsRuntime.NomadicScene
+  commentId: T:SadnessMonday.NomadsRuntime.NomadicScene
+  parent: SadnessMonday.NomadsRuntime
+  href: SadnessMonday.NomadsRuntime.NomadicScene.html
+  name: NomadicScene
+  nameWithType: NomadicScene
+  fullName: SadnessMonday.NomadsRuntime.NomadicScene
+- uid: SadnessMonday.NomadsRuntime.MultipleNomadsException
+  commentId: T:SadnessMonday.NomadsRuntime.MultipleNomadsException
+  href: SadnessMonday.NomadsRuntime.MultipleNomadsException.html
+  name: MultipleNomadsException
+  nameWithType: MultipleNomadsException
+  fullName: SadnessMonday.NomadsRuntime.MultipleNomadsException
+- uid: SadnessMonday.NomadsRuntime.Nomads
+  commentId: T:SadnessMonday.NomadsRuntime.Nomads
+  href: SadnessMonday.NomadsRuntime.Nomads.html
+  name: Nomads
+  nameWithType: Nomads
+  fullName: SadnessMonday.NomadsRuntime.Nomads
+- uid: SadnessMonday.NomadsRuntime.Nomad
+  commentId: T:SadnessMonday.NomadsRuntime.Nomad
+  href: SadnessMonday.NomadsRuntime.Nomad.html
+  name: Nomad
+  nameWithType: Nomad
+  fullName: SadnessMonday.NomadsRuntime.Nomad
+- uid: SadnessMonday.NomadsRuntime
+  commentId: N:SadnessMonday.NomadsRuntime
+  href: SadnessMonday.html
+  name: SadnessMonday.NomadsRuntime
+  nameWithType: SadnessMonday.NomadsRuntime
+  fullName: SadnessMonday.NomadsRuntime
+  spec.csharp:
+  - uid: SadnessMonday
+    name: SadnessMonday
+    href: SadnessMonday.html
+  - name: .
+  - uid: SadnessMonday.NomadsRuntime
+    name: NomadsRuntime
+    href: SadnessMonday.NomadsRuntime.html
+  spec.vb:
+  - uid: SadnessMonday
+    name: SadnessMonday
+    href: SadnessMonday.html
+  - name: .
+  - uid: SadnessMonday.NomadsRuntime
+    name: NomadsRuntime
+    href: SadnessMonday.NomadsRuntime.html
