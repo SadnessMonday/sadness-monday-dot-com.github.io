@@ -28,3 +28,8 @@ url = "https://twitter.com/GoHugoIO"
 name = "Nomads"
 url = "NomadsDocs/index.html"
 weight = 50
+
+[[menu.main]]
+name = 'Contact'
+url = '/pages/contact'
+weight = 30
