@@ -7,3 +7,7 @@ type: page
 menu: main
 
 ---
+
+Sadness Monday Productions is a fully independent game studio based in Bloomfield New Jersey.
+
+For now, we're a one-man show.
