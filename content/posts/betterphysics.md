@@ -1,7 +1,6 @@
 +++
-title = 'Betterphysics'
+title = 'Announcing BetterPhysics'
 date = 2024-05-23T20:55:48-04:00
-draft = true
 +++
 # Announcing BetterPhysics
 
