@@ -15,5 +15,5 @@ Sadness Monday Productions is an independent game development studio.
 
 ### Game Development Tools
 
-[BetterPhysics]({{< ref "/posts/betterphysics.md" >}} "BetterPhysics")
+[BetterPhysics]({{< ref "/posts/announcing_betterphysics.md" >}} "BetterPhysics")
 

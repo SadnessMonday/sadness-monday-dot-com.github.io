@@ -7,8 +7,6 @@ type: page
 menu: main
 
 ---
-# Contact Us
-
 Need help with one of our tools? Want to discuss one of our games?
 
 ## Discord

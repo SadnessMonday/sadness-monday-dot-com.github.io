@@ -1,9 +1,11 @@
-+++
-title = 'Announcing BetterPhysics'
-date = 2024-05-23T20:55:48-04:00
-+++
-# Announcing BetterPhysics
+---
+title: Announcing BetterPhysics
+featured_image: ''
+omit_header_text: true
+description: Announcing BetterPhysics
+type: post
 
+---
 Hello fellow Unity developers!
 
 Sadness Monday is pleased to announce BetterPhysics, our new physics asset coming soon in the Unity Asset store!
