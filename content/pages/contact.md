@@ -1,8 +1,12 @@
-+++
-title = 'Contact'
-date = 2024-05-23T22:03:09-04:00
-draft = true
-+++
+---
+title: Contact
+featured_image: ''
+omit_header_text: true
+description: We'd love to hear from you
+type: page
+menu: main
+
+---
 # Contact Us
 
 Need help with one of our tools? Want to discuss one of our games?
