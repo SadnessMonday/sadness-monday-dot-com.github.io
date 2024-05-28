@@ -20,6 +20,8 @@ The primary point of interaction for BetterPhysics is the BetterRigidbody compon
 
 BetterRigidbody allows you to add customizable speed limits to your Rigidbodies.
 
+{{< youtube dRtHHhhKUn4 >}}
+
 <sup style="display: inline-block;">**tip:** Limits can be mixed and matched as much as you'd like, and they come with multiple modes</sup>
 
 #### Limit Type
@@ -52,6 +54,8 @@ Local Axis limits apply to the velocity of the Rigidbody in its own coordinate s
 
 ### Selective Kinematics
 Each BetterRigidbody can be set up on a particular Physics Layer. You can set the Physics Layer from the Inspector for the BetterRigidbody component. See
+
+{{< youtube BAlxxIDneVg >}}
 
 ## BetterPhysics Settings
 
