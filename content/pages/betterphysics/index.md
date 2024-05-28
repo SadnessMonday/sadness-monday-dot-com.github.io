@@ -15,10 +15,7 @@ We're here to help you take your physics-enabled games to the next level
 ## BetterRigidbody
 The primary point of interaction for BetterPhysics is the BetterRigidbody component. Add a BetterRigidbody component to any existing Rigidbody GameObject to enhance its capabilities!
 
-{{ $image := .Resources.Get "BRBComponent.png" }}
-{{ with $image }}
-<img src="{{ $image..RelPermalink }}" width="{{ $image..Width }}" height="{{ $image..Height }}">
-{{ end }}
+![BetterRigidbody Inspector](BRBComponent.png)
 
 ### Speed Limits
 
