@@ -1,5 +1,5 @@
 ---
-title: Announcing BetterPhysics
+title: BetterPhysics
 featured_image: ''
 omit_header_text: true
 description: Announcing BetterPhysics
