@@ -8,7 +8,7 @@ menu: main
 ---
 Hello fellow Unity developers!
 
-Sadness Monday is pleased to announce BetterPhysics, our new physics asset coming soon in the Unity Asset store!
+Sadness Monday is pleased to announce BetterPhysics, our new physics asset in the Unity Asset store!
 
 {{< youtube OxtKnApa6q8 >}}
 
