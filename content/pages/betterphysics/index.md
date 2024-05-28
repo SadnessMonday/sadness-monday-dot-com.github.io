@@ -17,7 +17,6 @@ The primary point of interaction for BetterPhysics is the BetterRigidbody compon
 
 {{ $image := .Resources.Get "BRBComponent.png" }}
 {{ with $image }}
-{{ $image := $image.Fit "600x400" }}
 <img src="{{ $image..RelPermalink }}" width="{{ $image..Width }}" height="{{ $image..Height }}">
 {{ end }}
 
