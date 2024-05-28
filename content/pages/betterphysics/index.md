@@ -4,7 +4,6 @@ featured_image: ''
 omit_header_text: true
 description: We'd love to hear from you
 type: page
-menu: main
 ---
 # Better Physics Documentation
 ### Introduction
@@ -18,9 +17,9 @@ The primary point of interaction for BetterPhysics is the BetterRigidbody compon
 
 ### Speed Limits
 
-BetterRigidbody allows you to add customizable speed limits to your Rigidbodies.
-
 {{< youtube dRtHHhhKUn4 >}}
+
+BetterRigidbody allows you to add customizable speed limits to your Rigidbodies.
 
 <sup style="display: inline-block;">**tip:** Limits can be mixed and matched as much as you'd like, and they come with multiple modes</sup>
 
@@ -53,17 +52,18 @@ Local Axis limits apply to the velocity of the Rigidbody in its own coordinate s
 <sup style="display: inline-block;">**tip:** World and Local axis limits can be Symmetrical or Asymmetrical per axis.</sup>
 
 ### Selective Kinematics
-Each BetterRigidbody can be set up on a particular Physics Layer. You can set the Physics Layer from the Inspector for the BetterRigidbody component. See
 
 {{< youtube BAlxxIDneVg >}}
 
-## BetterPhysics Settings
+Each BetterRigidbody can be set up on a particular Physics Layer. You can set the Physics Layer from the Inspector for the BetterRigidbody component. See
+
+#### BetterPhysics Settings
 
 To access BetterPhysics settings go to **Edit -> Project Settings -> Better Physics**
 
 From BetterPhysics settings page you can customize your physics layers by giving them names, adding new layers, and configuring the Interactions Matrix.
 
-### The Interactions Matrix
+#### The Interactions Matrix
 
 The interactions matrix is similar to the Layer-Based collision matrix in the default physics settings window, with a twist. Each box determines how the interaction between the corresponding layers will work.
 

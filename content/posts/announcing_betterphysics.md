@@ -4,7 +4,7 @@ featured_image: ''
 omit_header_text: true
 description: Announcing BetterPhysics
 type: post
-
+menu: main
 ---
 Hello fellow Unity developers!
 
