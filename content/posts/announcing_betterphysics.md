@@ -15,3 +15,5 @@ Sadness Monday is pleased to announce BetterPhysics, our new physics asset comin
 BetterPhysics builds upon Unity's base Physics engine and makes it possible to quickly and easily create complex physics interactions with less code!
 
 Get it when it drops at the [Unity Asset Store](https://u3d.as/308k)
+
+See the documentation at [BetterPhysics Documentation]({{< ref "/pages/betterphysics/index.md" >}} "BetterPhysics Documentation")
