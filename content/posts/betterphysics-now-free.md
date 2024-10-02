@@ -1,6 +1,6 @@
 +++
 title = 'BetterPhysics is now free and open source!'
-date = 2024-05-23T20:55:48-04:00
+date = 2024-10-01T22:10:48-04:00
 +++
 # BetterPhysics is now free and open source!
 
