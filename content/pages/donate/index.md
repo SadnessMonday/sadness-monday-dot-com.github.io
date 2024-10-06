@@ -16,11 +16,11 @@ Looking to show your appreciation? Liked BetterPhysics? Maybe something I've wri
 [Donate via Paypal here](https://www.paypal.com/donate/?business=5A352T9PA6AN6&no_recurring=0&item_name=Helping+people+with+Unity&currency_code=USD)
 
 ### Donate Bitcoin:<BR>
-![Bitcoin-Wallet](/images/BTCDonate.png){:class="img-responsive"}
+![Bitcoin-Wallet](BTCDonate.png){:class="img-responsive"}
 <BR>
 33wZdS5iD7ghvYBLSCSHtzGqQDukDeM9PZ
 <BR>
 ### Donate Ethereum:<BR>
-![Ethereum-Wallet](/images/ETHDonate.png){:class="img-responsive"}
+![Ethereum-Wallet](ETHDonate.png){:class="img-responsive"}
 <BR>
 0xFc5df2A160CB4A0Ed1CFe700ee442DA6318Fee4c
