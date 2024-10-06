@@ -10,7 +10,7 @@ menu: main
 Looking to show your appreciation? Liked BetterPhysics? Maybe something I've written here or elsewhere helped you out? Want to buy me a coffee to show your appreciation? Here's the place to do it.
 
 ### Donate via Ko-fi:<BR>
-{{< kofi/button >}}
+{{< kofi/button user=praetorblue >}}
 
 ### Donate via Paypal:<BR>
 [Donate via Paypal here](https://www.paypal.com/donate/?business=5A352T9PA6AN6&no_recurring=0&item_name=Helping+people+with+Unity&currency_code=USD)
