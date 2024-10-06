@@ -1,4 +1,4 @@
 baseURL = 'https://sadnessmonday.com/'
 languageCode = 'en-us'
 title = 'Sadness Monday Productions'
-theme = 'ananke'
+theme = ['ananke', 'hugo-shortcode-kofi']
